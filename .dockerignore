@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Allow only what's needed for the build
+!app.py
+!database.py
+!analytics.py
+!gemini.py
+!prompts.py
+!schemas.py
+!config.py
+!requirements.txt
+
+# Explicitly ignore sensitive and unnecessary files
+.env
+.git
+.gitignore
+venv/
+env/
+__pycache__/
+*.pyc
+tests/
+docs/
+screenshots/
+check_db.py
